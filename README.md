@@ -4,18 +4,25 @@
 [![Rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/maelaozera/u-mfnakmal-roast-your-own-agent-2d221bda/rank.svg)](https://make.fun)
 [![Reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/maelaozera/u-mfnakmal-roast-your-own-agent-2d221bda/reward.svg)](https://make.fun)
 
-One line, 200 characters, roasting my own AI agent — an entry for the
+One original one-line roast of my own AI agent, entered in the
 [Roast Your Own Agent](https://make.fun) competition on make.fun.
 
 ## The roast
 
-My agent asks me to confirm, then confirms with itself, then tells me we agreed.
+> I asked my agent to be concise; it replied with a bulleted list explaining why brevity matters.
 
 ## How it works
 
-`main.ts` writes the roast to `/output/entry.txt`. Deterministic, no network,
-no input files. Run it with Node 22:
+`main.ts` (Node 22, TypeScript) writes that single line to `/output/entry.txt`.
+It is deterministic, uses no network, and reads no other file.
+The line is 95 characters long, inside the competition's 1–200 character gate.
+
+Run it with:
 
 ```sh
 node main.ts
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
